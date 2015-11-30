@@ -1,0 +1,90 @@
+/* - - - GLOBAL CSS STYLESHEET - - - */
+
+/* - - NavBar - - */
+
+/* - - Site Wide - - */
+body, html {
+    background-color: #34495e;
+}
+
+/* - - Home Section - - */
+#home {
+    background-color: #34495e;
+    display: block;
+    width: 100%;
+    padding-top: 50px;
+}
+.home.profile-image {
+	width: 200px;
+	height: 200px;
+	background: transparent;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 200px;
+    border: 2px solid #efefef;
+    display: block;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.home.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home.title.container {
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 350;
+    padding-top: 15px;
+}
+.home.intro.container {
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 350;
+}
+.home-header{
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 5px;
+}
+.home-content {
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: ;
+    padding-bottom: 25px;
+}
+.social {
+    font-size: 25px;
+}
+a.social-link, a.social-link:visited, a.social-link:hover, a.social-link:active{
+    color: inherit;
+    color: #fff;
+}
+
+
+/* - - Contact Section - - */
+#contact {
+    background-color: #34495e;
+    display: block;
+    width: 100%;
+}
+
+/* - - Experience Section - - */
+#experience {
+    background-color: #efefef;
+    display: block;
+    width: 100%;
+}
+
+/* - - Projects Section - - */
+#projects {
+    background-color: #34495e;
+    display: block;
+    width: 100%;
+}
