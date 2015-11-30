@@ -56,23 +56,88 @@ body, html {
     text-align: center;
     font-weight: 300;
     font-size: 16px;
-    padding-top: ;
     padding-bottom: 25px;
 }
-.social {
-    font-size: 25px;
-}
-a.social-link, a.social-link:visited, a.social-link:hover, a.social-link:active{
+a.home-link, a.home-link:visited, a.home-link:hover, a.home-link:active{
     color: inherit;
-    color: #fff;
+    color: #b5e6ff;
 }
-
+.uog-logo {
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.hobbies {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hobbies-images {
+    text-align: center;
+    display: inline;
+    postition: absolute;
+    margin: auto;
+    margin-bottom: 15px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.hobbies-images:hover {
+    height: 65px;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.strava {
+    height: 45px;
+}
+.goodreads {
+    height: 40px;
+}
 
 /* - - Contact Section - - */
 #contact {
     background-color: #34495e;
     display: block;
     width: 100%;
+    color: #fff;
+}
+.contact.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact.title.container {
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 350;
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+.contact.content.container {
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    font-size: 17px;
+    padding-bottom: 25px;
+}
+a.contact-link, a.contact-link:visited, a.contact-link:active{
+    font-size: 50px;
+    color: inherit;
+    color: #fff;
+    padding: 10px;
+}
+a.contact-link:hover {
+    font-size: 50px;
+    color: inherit;
+    color: #b5e6ff;
 }
 
 /* - - Experience Section - - */
@@ -81,10 +146,50 @@ a.social-link, a.social-link:visited, a.social-link:hover, a.social-link:active{
     display: block;
     width: 100%;
 }
+.experience.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.experience.title.container {
+    text-align: center;
+    color: #36454F;
+    font-size: 35px;
+    font-weight: 350;
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+.experience.content.container {
+    color: #36454F;
+    text-align: center;
+    font-weight: 300;
+    font-size: 17px;
+    padding-bottom: 25px;
+}
 
 /* - - Projects Section - - */
 #projects {
     background-color: #34495e;
     display: block;
     width: 100%;
+}
+.projects.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projects.title.container {
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 350;
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+.projects.content.container {
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    font-size: 17px;
+    padding-bottom: 25px;
 }
