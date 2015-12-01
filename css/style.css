@@ -58,6 +58,20 @@ body, html {
     font-size: 16px;
     padding-bottom: 10px;
 }
+#yearOne {
+    text-align: center;
+    margin-bottom: 9px;
+}
+#grades-table {
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+}
+.hide {
+   position: absolute !important;
+   top: -9999px !important;
+   left: -9999px !important;
+}
 a.home-link, a.home-link:visited, a.home-link:hover, a.home-link:active {
     color: inherit;
     color: #b5e6ff;
