@@ -21,6 +21,10 @@
         <!-- Font-Awesome CSS -->
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
         
+        <!-- Stylesheets for Github Activity Widget -->
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+        <link rel="stylesheet" href="css/github-activity-0.1.4.min.css">
+        
         <!-- CSS Stylesheets-->
         <link href="css/style.css" rel="stylesheet">
         
@@ -99,7 +103,7 @@
                         <li><a href="https://github.com/bennjs/" class="contact-link" target="_newtab"><i class="fa fa-github-alt"></i></a></li>                        
                         <li class="last-item" title="Email me"><a href="mailto:sb410@gre.ac.uk" class="contact-link"><i class="fa fa-paper-plane"></i></a></li>
                     </ul>
-                    <p>I'm also always on the lookout for any interesting tech talks or events across London.</p>
+                    <p>I'm also always on the lookout for any interesting tech talks or events across London, and meeting people who can happily drink cider all year round.</p>
                 </div>
             </div>
         </section>
@@ -117,7 +121,6 @@
                     <p>(Dog lovers can checkout my <a href="http://uk.linkedin.com/in/bnjstokes" target="_newtab">LinkedIn</a> or ask for a copy of my <a href="mailto:sb410@gre.ac.uk">CV</a>.)</p>
                 </div>
             </div>
-        
         </section>
         
         <!--Projects Section-->
@@ -165,13 +168,29 @@
                             <a href="#projects" class="product-link" target="_newtab"><button type="button" class="btn btn-default"><i class="fa fa-github"></i> View on GitHub</button></a>
                             <a href="#projects" class="product-link" target="_newtab"><button type="button" class="btn btn-default"><i class="fa fa-book"></i> Read More...</button></a>
                         </div>
-                    </div>                    
+                    </div>
+                    <hr class="divider">
+                    <div class="row text-center">
+                        <a href="#projects" class="product-page-link" target="_newtab"><button type="button" class="btn btn-default btn-lg"><i class="fa fa-file-code-o"></i> Full Project List</button></a>
+                    </div>
                 </div>
             </div>
         </section>
+        
+        <section id="gh-activity">
+            <div class="gh-activity container">
+                <div class="gh-activity title container">
+                <p>Some recent work...</p>
+                </div>
+                <div id="feed"></div>
+            </div>
+        
+        </section>
     
-    
+    <!--<div id="feed"></div>-->
     <!--Javascript-->
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="js/github-activity-0.1.4.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>

@@ -58,7 +58,7 @@ body, html {
     font-size: 16px;
     padding-bottom: 10px;
 }
-a.home-link, a.home-link:visited, a.home-link:hover, a.home-link:active{
+a.home-link, a.home-link:visited, a.home-link:hover, a.home-link:active {
     color: inherit;
     color: #b5e6ff;
 }
@@ -128,7 +128,7 @@ a.home-link, a.home-link:visited, a.home-link:hover, a.home-link:active{
     font-size: 17px;
     padding-bottom: 25px;
 }
-a.contact-link, a.contact-link:visited, a.contact-link:active{
+a.contact-link, a.contact-link:visited, a.contact-link:active {
     font-size: 50px;
     color: inherit;
     color: #fff;
@@ -209,7 +209,7 @@ a.contact-link:hover {
 .project-image-dark {
     opacity: 0.8;
 }
-a.product-link, a.product-link:visited, a.product-link:active{
+a.product-link, a.product-link:visited, a.product-link:active {
     font-size: 50px;
     color: inherit;
     color: #fff;
@@ -220,6 +220,30 @@ a.product-link:hover {
     color: inherit;
     color: #b5e6ff;
 }
+
+/* - - Experience Section - - */
+#gh-activity {
+    background-color: #efefef;
+    display: block;
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+.gh-activity.container {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.gh-activity.title.container {
+    text-align: center;
+    color: #36454F;
+    font-size: 35px;
+    font-weight: 350;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
 @media (max-width: 767px) {
 	.pippi-image {
         width: 100%;
