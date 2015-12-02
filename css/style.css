@@ -108,11 +108,15 @@ a.home-link, a.home-link:visited, a.home-link:hover, a.home-link:active {
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
 }
+.goodreads {
+    height: 40px;
+}
 .strava {
     height: 45px;
 }
-.goodreads {
+.meetup {
     height: 40px;
+    border-radius: 6px;
 }
 
 /* - - Contact Section - - */
