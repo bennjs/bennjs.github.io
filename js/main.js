@@ -1,6 +1,6 @@
 //Toggles the visibility of my Modules & Grades table
 // .hide can be found on line70 of css/style.css
-var $button = $('#yearOne'),
+var $button = $('#toggleGradesButton'),
   $text   = $('#grades-table'),
   visible = false;
 
@@ -12,6 +12,7 @@ if ( visible ) {
 }
 visible = ! visible;
 });
+
 
 // GitHubActivity Stream Widget by Casey Scarborough
 // https://github.com/caseyscarborough/github-activity
