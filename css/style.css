@@ -223,9 +223,6 @@ a.contact-link:hover {
     color: #fff;
     font-size: 27px;
 }
-.project-image-dark {
-    opacity: 0.8;
-}
 a.product-link, a.product-link:visited, a.product-link:active {
     font-size: 50px;
     color: inherit;
